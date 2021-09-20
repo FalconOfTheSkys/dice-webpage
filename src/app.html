@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="main-body">
+        <h1 id="main-header">Dice</h1>
+        <div id="main-roll-btn">
+            <button id="roll-btn-main" onclick="btnClicked()">Roll</button>
+        </div>
+    </div>
+
+    <div id="rolled-page" hidden=true>
+        <h2 id="rolled-display"></h3>
+        <button id="rolled-reroll" onclick="reroll()">Reroll</button>
+        <button id="rolled-cancel" onclick="cancelRoll()">Cancel</button>
+    </div>
+</body>
+</html>
